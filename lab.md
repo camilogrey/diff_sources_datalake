@@ -30,7 +30,7 @@ Azure Blob Storage: Almacena el histórico de clientes y ventas de sistemas lega
 Destino analítico: Necesidad futura de consolidar todos estos datos para construir modelos analíticos y paneles de informes en Power BI.
 Para lograr esta unificación, se diseña una arquitectura donde un único orquestador se conecta a las tres fuentes de forma centralizada:
 
-
+![img](img_pipeline/13.%20Publicacion%20del%20report%20app.png)
 
 Solo nos centraremos en la parte inicial de esta arquitectura (la ingesta unificada):
 
